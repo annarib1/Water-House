@@ -1,0 +1,152 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  color:#67392d;
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
+    font-size: 50px;
+  
+}
+
+p {
+  color: #a2464aff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Amatic SC", sans-serif;
+  font-style: normal;
+}
+.brand {
+  border: #c97e33ff solid 4px;
+  font-family: "Amatic SC", sans-serif;
+  font-style: normal;
+}
+.size {
+  border: #c97e33ff solid 4px;
+  font-family: "Amatic SC", sans-serif;
+  font-style: normal;
+}
+.image {
+  border: #c97e33ff solid 4px;
+  font-family: "Amatic SC", sans-serif;
+  font-style: normal;
+}
+.buy {
+  border: #c97e33ff solid 4px;
+  font-family: "Amatic SC", sans-serif;
+  font-style: normal;
+}
+img{
+  height:200px;
+}
+.display {
+  display: flex;
+  justify-content: space-arround;
+  border-top: 5px solid #a2464aff;
+  border-bottom: 5px solid #a2464aff;
+  padding: 25px;
+  overflow:auto;
+  white-space:nowrap;
+}
+
+a {
+  color:#67392d;
+}
+
+.column {
+  width: 18%;
+  padding: 25px 50px;
+}
+
+.image img {
+  display: block;
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+}
+
+.brand p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  margin: 20px;
+  color:#67392d;
+
+}
+h2 {
+  color: #67392d;
+  font-family: "Great Vibes", cursive;
+    font-style: normal;
+  text-align: center;
+}
+
+.artist p {
+  font-size: 18px;
+  height: 100px;
+  margin: 20px;
+  color: #c97e33ff;
+}
+
+.link a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 75%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+padding-left: 90px;
+}
+
+input {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  color: #c97e33ff;
+  background-color: #a2464aff;
+  font-family: "Amatic SC", sans-serif;
+  font-style: normal;
+
+}
+
+.displayImage img {
+  display: block;
+  height: 100px;
+  width: auto;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.displayBrand p {
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  color: #67392d;
+  padding-left: 30px;
+}
+
+.displaySize p {
+  font-size: 18px;
+  height: 100px;
+  color: #c97e33ff;
+  padding-left: 15px;
+}
+
+.displayLink a {
+  display: block;
+  font-size: 18px;
+  height: 100px;
+  font-weight: bold;
+  color: #a2464aff;
+  padding-left: 20px;
+}
