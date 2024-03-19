@@ -56,18 +56,6 @@ function emptyDisplay() {
 function displayWaterInfo() {
   bottles.forEach(function (drinks) {
     display.insertAdjacentHTML("beforeend",`<div class ="displayWater"> <img src="${drinks.image}"><div> <p>${drinks.Brand}</p> <p>${drinks.Capasity}</p><p><a href=${drinks.Link}>Buy Here</a></p></div> </div>`);
-    // displayImage.insertAdjacentHTML(
-    //   "beforeend",
-    //   `<img src="${drinks.image}">`
-    // );
-    // displayBrand.insertAdjacentHTML("beforeend", `<p>${drinks.Brand}</p>`);
-    // displayCapasity.insertAdjacentHTML(
-    //   "beforeend",
-    //   `<p>${drinks.Capasity}</p>`
-    // );
-    // displayLink.insertAdjacentHTML(
-    //   "beforeend",
-    //   `<p><a href=${drinks.Link}>Buy Here</a></p>`
   });
 }
 

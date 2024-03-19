@@ -14,7 +14,7 @@ h1 {
 
 p {
   color: #a2464aff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   font-family: "Amatic SC", sans-serif;
   font-style: normal;
@@ -81,6 +81,7 @@ h2 {
   font-family: "Great Vibes", cursive;
     font-style: normal;
   text-align: center;
+  font-size: 30px;
 }
 
 .artist p {
@@ -107,17 +108,16 @@ padding-left: 90px;
 
 input {
   padding: 5px 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 button {
-  padding: 5px 10px;
-  font-size:50px;
-  color: #c97e33ff;
+ padding: 10px 64px;
+  font-size:40px;
+  color: white;
   background-color: #a2464aff;
   font-family: "Amatic SC", sans-serif;
   font-style: normal;
-
 }
 
 .displayImage img {
